@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 550px;
+    background: url(images/11.jpg);
+    background-size: 100% 239px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.ills {
+	width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+        margin-bottom: 60px;
+		border-radius: 15px;
+		border-width: 2px;
+border-style: solid;
+	border-color: gray;
+}
+
+.ills img {
+    width: 125px;
+    border-radius: 15px;
+  
+}
+
+.profile img {
+	width: 204px;
+	height: 204px;
+    display: block;
+    margin: 0 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.profile h1 {
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+text-transform: uppercase;
+}
+
+.profile p {
+font-weight: 400;
+font-size: 14px;
+line-height: 140.52%;
+color: #535353;
+margin: 8px 2;
+text-align: center;
+}
+
+.profile a {
+    width: 362px;
+    height: 45px;
+    background: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+	
+}
+
+.profile a:hover {
+    background: linear-gradient(0deg, #A4A4A4 0%, #535353 107.46%);
+	}
+
+.profile {
+    width: 362px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.read h1 {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+.read img {
+    width: 440px;
+    border-radius: 30px;
+    margin: 5px;
+	padding: 15px;
+	
+}
+
+.end {
+	font-size: 44px;
+}
+
+.contacts p {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+padding-left: 15px;
+}
+
+footer {
+    background: url(images/footer.jpg);
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+
+
